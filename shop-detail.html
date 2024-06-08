@@ -31,10 +31,15 @@
       href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/84e176b008.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/common/style.css" rel="stylesheet" />
-    <link href="css/pages/navbar.css" />
+    <link href="css/pages/navbar.css" rel="stylesheet" />
+    <link href="css/pages/shop-detail.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -127,8 +132,8 @@
           <div class="navbar-nav mr-auto py-0">
             <a href="index.html" class="nav-item nav-link">Home</a>
             <a href="about.html" class="nav-item nav-link">About</a>
-            <a href="service.html" class="nav-item nav-link">Service</a>
-            <a href="price.html" class="nav-item nav-link active">Price</a>
+            <a href="service.html" class="nav-item nav-link active">Service</a>
+            <a href="price.html" class="nav-item nav-link">Price</a>
             <a href="booking.html" class="nav-item nav-link">Booking</a>
             <div class="nav-item dropdown">
               <a
@@ -154,327 +159,268 @@
     </div>
     <!-- Navbar End -->
 
-    <!-- Pricing Plan Start -->
-    <div class="container-fluid bg-light pt-5 pb-4">
+    <!-- Services Start -->
+    <div class="container-fluid bg-light pt-5">
       <div class="container py-5">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="d-flex justify-content-start">
+              <!-- SHOP DETAIL -->
+              <div class="avatar-shop">
+                <img
+                  class="rounded-circle"
+                  src="./img/team-2.jpg"
+                  width="100px"
+                  height="100px"
+                />
+              </div>
+              <div class="ml-5">
+                <div class="name-shop">
+                  <h3>Pimienta & Ciboulette @ Belgrano</h3>
+                  <div>By Maria ⭐⭐⭐⭐⭐ 1555 reviews</div>
+                </div>
+                <div style="font-weight: bold; color: #008000">
+                  <i class="mt-4 fa-regular fa-calendar"></i>
+                  &nbsp;&nbsp;8 Completed Bookings
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="address-shop mt-4 mb-4">
+              <p>
+                <i class="fa-solid fa-location-dot"></i> Location: Vietnam | Pet
+                Boarding
+              </p>
+            </div>
+            <hr />
+            <!-- GUEST IMAGES -->
+
+            <div>
+              <h2>Maria & Guest's Pet</h2>
+            </div>
+            <div class="guest-image mt-3">
+              <div class="grid">
+                <div class="item left">
+                  <img src="/img/team-4.jpg" />
+                </div>
+                <div class="item upper_right">
+                  <img src="/img/team-3.jpg" />
+                </div>
+                <div class="item lower_right">
+                  <img src="/img/team-1.jpg" />
+                </div>
+              </div>
+            </div>
+            <!--  -->
+
+            <div class="content-shop mt-5">
+              <p>
+                Hola, soy Marina. Amo a los animales desde que tengo uso de
+                razón. Cuidar de ellos y compartir momentos de juego, paseo,
+                relajación o paseos es lo que me satisface plenamente. Considero
+                que no hay ser más noble que un perro. Por esto he tenido
+                perritos siempre que pude y he Sido voluntaria de varios
+                refugios para ayudar a los perritos que no tuvieron la fortuna
+                de vivir con una familia que los ame como realmente se
+                merecen.<br /><br />
+                Actualmente transito perritos para dos asociaciones que se
+                dedican a rescatar y dar en adopción perros sin hogar, y alterno
+                con servicios de guardería para juntar fondos para colaborar con
+                estas organizaciones. Trabajo desde mi casa, por lo que nunca
+                quedan solos por más de un par de horas ocasionalmente. Gracias
+                a la experiencia de haber cuidado distintos tipos de perros (de
+                raza, mestizos, cachorros, adultos y senior)<br /><br />
+                reconozco facilmente señales tempranas de algún problema y sé
+                administrar cuidados primarios para resolverlo o atenuarlo.
+              </p>
+              <hr class="" />
+              <!-- BUTTON REVIEW -->
+              <div class="shop-reviews d-flex justify-content-between mt-4">
+                <div class="total-review">
+                  <h3>11 Reviews</h3>
+                </div>
+                <div class="btn-add-reviews">
+                  <button class="btn btn-primary">Write a Review</button>
+                </div>
+              </div>
+              <hr />
+              <!-- COMMENT START -->
+              <div class="d-flex justify-content-start">
+                <div class="avatar-customer">
+                  <img
+                    class="rounded-circle"
+                    src="./img/team-2.jpg"
+                    width="100px"
+                    height="100px"
+                  />
+                </div>
+                <div class="ml-3">
+                  <div class="name-customer">
+                    <h5>Pimienta</h5>
+                    <div>
+                      ⭐⭐⭐⭐⭐ &nbsp;
+                      <small style="font-size: 15px">June 3</small>
+                    </div>
+                  </div>
+                  <div class="mt-3">
+                    Nuestra experiencia con Marina fue excelente!! Desde el
+                    primer momento nos escucho sobre las necesidades de Simona y
+                    durante su estadía nos mantuvo actualizados con fotos y
+                    videos. Se nota que Simona se sintió muy cómoda así que
+                    nosotros con ella también! Recomiendo totalmen
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <!-- COMMENT END  -->
+            </div>
+          </div>
+          <!-- INFO START -->
+          <div class="col-md-5">
+            <div
+              class="card"
+              style="position: -webkit-sticky; position: sticky; top: 0"
+            >
+              <div class="card-header text-center">
+                <h4 class="mt-2">Services & Rates</h4>
+              </div>
+              <div class="card-body">
+                <div class="contact-shop">
+                  <p><i class="fa-solid fa-comments"></i> Talk & Greet</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="card-text">Get to know each other first</p>
+                    <p><strong>FREE</strong></p>
+                  </div>
+                  <a href="#" class="btn btn-lg btn-outline-info w-100">CONTACT <i class="fa-solid fa-phone ml-3"></i></a>
+                </div>
+                <hr />
+                <div class="info-pay-shop">
+                  <div class="">
+                    <p><i class="fa-solid fa-house-user"></i> Pet Boarding</p>
+                    <div class="d-flex justify-content-between">
+                      <strong
+                        >From ARS:
+                        <span class="text-info"
+                          ><i class="fa-solid fa-dollar-sign"></i
+                          >10000/night</span
+                        ></strong
+                      >
+                      <strong class="text-secondary">MARK RESERVATION</strong>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="icons d-flex justify-content-between">
+                    <img src="./img/icons/visa.svg" width="70px" />
+                    <img src="./img/icons/mastercard.svg" width="70px" />
+                    <img src="./img/icons/paypal.svg" width="70px" />
+                    <img src="./img/icons/amex.svg" width="70px" />
+                  </div>
+                  <hr />
+
+                  <div>
+                    <button class="w-100 btn btn-lg btn-outline-success">
+                      Booking Now <i class="fa-solid fa-bars ml-3"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- INFO END EDIT HERE -->
+        </div>
+      </div>
+    </div>
+    <!-- Services End EDIT HERE-->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid p-0 py-5">
+      <div class="container p-0 pt-5">
         <div class="d-flex flex-column text-center mb-5">
-          <h4 class="text-secondary mb-3">Pricing Plan</h4>
+          <h4 class="text-secondary mb-3">Testimonial</h4>
           <h1 class="display-4 m-0">
-            Choose the <span class="text-primary">Best Price</span>
+            Our Client <span class="text-primary">Says</span>
           </h1>
         </div>
-        <div class="row">
-          <div class="col-lg-4 mb-4">
-            <div class="card border-0">
-              <div class="card-header position-relative border-0 p-0 mb-4">
-                <img class="card-img-top" src="img/price-1.jpg" alt="" />
-                <div
-                  class="position-absolute d-flex flex-column align-items-center justify-content-center w-100 h-100"
-                  style="
-                    top: 0;
-                    left: 0;
-                    z-index: 1;
-                    background: rgba(0, 0, 0, 0.5);
-                  "
-                >
-                  <h3 class="text-primary mb-3">Basic</h3>
-                  <h1 class="display-4 text-white mb-0">
-                    <small
-                      class="align-top"
-                      style="font-size: 22px; line-height: 45px"
-                      >$</small
-                    >49<small
-                      class="align-bottom"
-                      style="font-size: 16px; line-height: 40px"
-                      >/ Mo</small
-                    >
-                  </h1>
-                </div>
-              </div>
-              <div class="card-body text-center p-0">
-                <ul class="list-group list-group-flush mb-4">
-                  <li class="list-group-item p-2">
-                    <i class="fa fa-check text-secondary mr-2"></i>Feeding
-                  </li>
-                  <li class="list-group-item p-2">
-                    <i class="fa fa-check text-secondary mr-2"></i>Boarding
-                  </li>
-                  <li class="list-group-item p-2">
-                    <i class="fa fa-times text-danger mr-2"></i>Spa & Grooming
-                  </li>
-                  <li class="list-group-item p-2">
-                    <i class="fa fa-times text-danger mr-2"></i>Veterinary
-                    Medicine
-                  </li>
-                </ul>
-              </div>
-              <div class="card-footer border-0 p-0">
-                <a
-                  href=""
-                  class="btn btn-primary btn-block p-3"
-                  style="border-radius: 0"
-                  >Signup Now</a
-                >
+        <div class="owl-carousel testimonial-carousel">
+          <div class="bg-light mx-3 p-4">
+            <div class="d-flex align-items-end mb-3 mt-n4 ml-n4">
+              <img
+                class="img-fluid"
+                src="img/testimonial-1.jpg"
+                style="width: 80px; height: 80px"
+                alt=""
+              />
+              <div class="ml-3">
+                <h5>Client Name</h5>
+                <i>Profession</i>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 mb-4">
-            <div class="card border-0">
-              <div class="card-header position-relative border-0 p-0 mb-4">
-                <img class="card-img-top" src="img/price-2.jpg" alt="" />
-                <div
-                  class="position-absolute d-flex flex-column align-items-center justify-content-center w-100 h-100"
-                  style="
-                    top: 0;
-                    left: 0;
-                    z-index: 1;
-                    background: rgba(0, 0, 0, 0.5);
-                  "
-                >
-                  <h3 class="text-secondary mb-3">Standard</h3>
-                  <h1 class="display-4 text-white mb-0">
-                    <small
-                      class="align-top"
-                      style="font-size: 22px; line-height: 45px"
-                      >$</small
-                    >99<small
-                      class="align-bottom"
-                      style="font-size: 16px; line-height: 40px"
-                      >/ Mo</small
-                    >
-                  </h1>
-                </div>
-              </div>
-              <div class="card-body text-center p-0">
-                <ul class="list-group list-group-flush mb-4">
-                  <li class="list-group-item p-2">
-                    <i class="fa fa-check text-secondary mr-2"></i>Feeding
-                  </li>
-                  <li class="list-group-item p-2">
-                    <i class="fa fa-check text-secondary mr-2"></i>Boarding
-                  </li>
-                  <li class="list-group-item p-2">
-                    <i class="fa fa-check text-secondary mr-2"></i>Spa &
-                    Grooming
-                  </li>
-                  <li class="list-group-item p-2">
-                    <i class="fa fa-times text-danger mr-2"></i>Veterinary
-                    Medicine
-                  </li>
-                </ul>
-              </div>
-              <div class="card-footer border-0 p-0">
-                <a
-                  href=""
-                  class="btn btn-secondary btn-block p-3"
-                  style="border-radius: 0"
-                  >Signup Now</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 mb-4">
-            <div class="card border-0">
-              <div class="card-header position-relative border-0 p-0 mb-4">
-                <img class="card-img-top" src="img/price-3.jpg" alt="" />
-                <div
-                  class="position-absolute d-flex flex-column align-items-center justify-content-center w-100 h-100"
-                  style="
-                    top: 0;
-                    left: 0;
-                    z-index: 1;
-                    background: rgba(0, 0, 0, 0.5);
-                  "
-                >
-                  <h3 class="text-primary mb-3">Premium</h3>
-                  <h1 class="display-4 text-white mb-0">
-                    <small
-                      class="align-top"
-                      style="font-size: 22px; line-height: 45px"
-                      >$</small
-                    >149<small
-                      class="align-bottom"
-                      style="font-size: 16px; line-height: 40px"
-                      >/ Mo</small
-                    >
-                  </h1>
-                </div>
-              </div>
-              <div class="card-body text-center p-0">
-                <ul class="list-group list-group-flush mb-4">
-                  <li class="list-group-item p-2">
-                    <i class="fa fa-check text-secondary mr-2"></i>Feeding
-                  </li>
-                  <li class="list-group-item p-2">
-                    <i class="fa fa-check text-secondary mr-2"></i>Boarding
-                  </li>
-                  <li class="list-group-item p-2">
-                    <i class="fa fa-check text-secondary mr-2"></i>Spa &
-                    Grooming
-                  </li>
-                  <li class="list-group-item p-2">
-                    <i class="fa fa-check text-secondary mr-2"></i>Veterinary
-                    Medicine
-                  </li>
-                </ul>
-              </div>
-              <div class="card-footer border-0 p-0">
-                <a
-                  href=""
-                  class="btn btn-primary btn-block p-3"
-                  style="border-radius: 0"
-                  >Signup Now</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Pricing Plan End -->
-
-    <!-- Booking Start -->
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-5">
-            <div class="bg-primary py-5 px-4 px-sm-5">
-              <form class="py-5">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control border-0 p-4"
-                    placeholder="Your Name"
-                    required="required"
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="email"
-                    class="form-control border-0 p-4"
-                    placeholder="Your Email"
-                    required="required"
-                  />
-                </div>
-                <div class="form-group">
-                  <div class="date" id="date" data-target-input="nearest">
-                    <input
-                      type="text"
-                      class="form-control border-0 p-4 datetimepicker-input"
-                      placeholder="Reservation Date"
-                      data-target="#date"
-                      data-toggle="datetimepicker"
-                    />
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="time" id="time" data-target-input="nearest">
-                    <input
-                      type="text"
-                      class="form-control border-0 p-4 datetimepicker-input"
-                      placeholder="Reservation Time"
-                      data-target="#time"
-                      data-toggle="datetimepicker"
-                    />
-                  </div>
-                </div>
-                <div class="form-group">
-                  <select
-                    class="custom-select border-0 px-4"
-                    style="height: 47px"
-                  >
-                    <option selected>Select A Service</option>
-                    <option value="1">Service 1</option>
-                    <option value="2">Service 1</option>
-                    <option value="3">Service 1</option>
-                  </select>
-                </div>
-                <div>
-                  <button
-                    class="btn btn-dark btn-block border-0 py-3"
-                    type="submit"
-                  >
-                    Book Now
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div class="col-lg-7 py-5 py-lg-0 px-3 px-lg-5">
-            <h4 class="text-secondary mb-3">Going for a vacation?</h4>
-            <h1 class="display-4 mb-4">
-              Book For <span class="text-primary">Your Pet</span>
-            </h1>
-            <p>
-              Labore vero lorem eos sed aliquy ipsum aliquy sed. Vero dolore
-              dolore takima ipsum lorem rebum
+            <p class="m-0">
+              Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
+              eirmod clita lorem. Dolor tempor ipsum sanct clita
             </p>
-            <div class="row py-2">
-              <div class="col-sm-6">
-                <div class="d-flex flex-column">
-                  <div class="d-flex align-items-center mb-2">
-                    <h1
-                      class="flaticon-house font-weight-normal text-secondary m-0 mr-3"
-                    ></h1>
-                    <h5 class="text-truncate m-0">Pet Boarding</h5>
-                  </div>
-                  <p>
-                    Diam amet eos at no eos sit lorem, amet rebum ipsum clita
-                    stet
-                  </p>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="d-flex flex-column">
-                  <div class="d-flex align-items-center mb-2">
-                    <h1
-                      class="flaticon-food font-weight-normal text-secondary m-0 mr-3"
-                    ></h1>
-                    <h5 class="text-truncate m-0">Pet Feeding</h5>
-                  </div>
-                  <p>
-                    Diam amet eos at no eos sit lorem, amet rebum ipsum clita
-                    stet
-                  </p>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="d-flex flex-column">
-                  <div class="d-flex align-items-center mb-2">
-                    <h1
-                      class="flaticon-grooming font-weight-normal text-secondary m-0 mr-3"
-                    ></h1>
-                    <h5 class="text-truncate m-0">Pet Grooming</h5>
-                  </div>
-                  <p class="m-0">
-                    Diam amet eos at no eos sit lorem, amet rebum ipsum clita
-                    stet
-                  </p>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="d-flex flex-column">
-                  <div class="d-flex align-items-center mb-2">
-                    <h1
-                      class="flaticon-toy font-weight-normal text-secondary m-0 mr-3"
-                    ></h1>
-                    <h5 class="text-truncate m-0">Pet Tranning</h5>
-                  </div>
-                  <p class="m-0">
-                    Diam amet eos at no eos sit lorem, amet rebum ipsum clita
-                    stet
-                  </p>
-                </div>
+          </div>
+          <div class="bg-light mx-3 p-4">
+            <div class="d-flex align-items-end mb-3 mt-n4 ml-n4">
+              <img
+                class="img-fluid"
+                src="img/testimonial-2.jpg"
+                style="width: 80px; height: 80px"
+                alt=""
+              />
+              <div class="ml-3">
+                <h5>Client Name</h5>
+                <i>Profession</i>
               </div>
             </div>
+            <p class="m-0">
+              Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
+              eirmod clita lorem. Dolor tempor ipsum sanct clita
+            </p>
+          </div>
+          <div class="bg-light mx-3 p-4">
+            <div class="d-flex align-items-end mb-3 mt-n4 ml-n4">
+              <img
+                class="img-fluid"
+                src="img/testimonial-3.jpg"
+                style="width: 80px; height: 80px"
+                alt=""
+              />
+              <div class="ml-3">
+                <h5>Client Name</h5>
+                <i>Profession</i>
+              </div>
+            </div>
+            <p class="m-0">
+              Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
+              eirmod clita lorem. Dolor tempor ipsum sanct clita
+            </p>
+          </div>
+          <div class="bg-light mx-3 p-4">
+            <div class="d-flex align-items-end mb-3 mt-n4 ml-n4">
+              <img
+                class="img-fluid"
+                src="img/testimonial-4.jpg"
+                style="width: 80px; height: 80px"
+                alt=""
+              />
+              <div class="ml-3">
+                <h5>Client Name</h5>
+                <i>Profession</i>
+              </div>
+            </div>
+            <p class="m-0">
+              Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
+              eirmod clita lorem. Dolor tempor ipsum sanct clita
+            </p>
           </div>
         </div>
       </div>
     </div>
-    <!-- Booking Start -->
+    <!-- Testimonial End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
+    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
       <div class="row pt-5">
         <div class="col-lg-4 col-md-12 mb-5">
           <h1 class="mb-3 display-5 text-capitalize text-white">
