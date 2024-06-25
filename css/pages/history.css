@@ -31,7 +31,6 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-
 }
 
 *,
@@ -147,7 +146,6 @@ sub {
 sup {
   top: -0.5em;
 }
-
 
 pre,
 code,
@@ -496,7 +494,6 @@ code {
   word-break: break-word;
 }
 
-
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
@@ -562,7 +559,6 @@ pre code {
   margin-left: auto;
 }
 
-
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -573,8 +569,6 @@ pre code {
   padding-left: 0;
 }
 
-
-
 .col {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
@@ -583,17 +577,6 @@ pre code {
   flex-grow: 1;
   max-width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .order-first {
   -webkit-box-ordinal-group: 0;
@@ -2452,8 +2435,6 @@ textarea.form-control.is-invalid {
   }
 }
 
-
-
 .fade {
   -webkit-transition: opacity 0.15s linear;
   -o-transition: opacity 0.15s linear;
@@ -2489,8 +2470,6 @@ textarea.form-control.is-invalid {
     transition: none;
   }
 }
-
-
 
 .input-group {
   position: relative;
@@ -3167,7 +3146,6 @@ textarea.form-control.is-invalid {
   }
 }
 
-
 .card {
   position: relative;
   display: -webkit-box;
@@ -3577,7 +3555,6 @@ textarea.form-control.is-invalid {
   }
 }
 a.badge:hover,
-
 a.badge:focus {
   text-decoration: none;
 }
@@ -3600,7 +3577,6 @@ a.badge:focus {
   color: #fff;
   background-color: #007bff;
 }
-
 
 .badge-secondary {
   color: #fff;
@@ -4205,8 +4181,6 @@ button.close {
   -moz-appearance: none;
   appearance: none;
 }
-
-
 
 .toast {
   max-width: 350px;
@@ -8582,8 +8556,6 @@ body {
   color: gray;
 }
 
-
-
 h1,
 h2,
 h3,
@@ -8640,7 +8612,7 @@ h5,
 .table thead th {
   border: none;
   padding: 30px;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 500;
   color: gray;
 }
@@ -8659,7 +8631,7 @@ h5,
 .table tbody td {
   border: none;
   padding: 30px;
-  font-size: 14px;
+  font-size: 20px;
   background: #fff;
   vertical-align: middle;
 }
@@ -8701,15 +8673,16 @@ h5,
 }
 
 .table tbody td .img {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }
 .table tbody td .email span {
+  font-size: 20px;
   display: block;
 }
 .table tbody td .email span:last-child {
-  font-size: 12px;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.3);
 }
 .table tbody td .close span {
